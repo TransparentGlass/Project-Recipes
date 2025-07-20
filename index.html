@@ -3,19 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Glass's Favorite Dishes!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/ogImage.jpg" type="img/png">
     </head>
     <body>
-        <h1> Glass's Favorite Recipes!</h1>
-        <p> <strong>Welcome!</strong> These recipes are one of my favorite dishes to eat IRL! Please try them out!</p>
-        <ul>
-        <div>
-         <li><h3><a href="./recipes/carbonara.html">Carbonara</a></h3></li>
-         <img src="./img/carbonara.png" width="200" alt="Creamy carbonara with peperoni on top and green residue with it.">
-        <li> <h3><a href="./recipes/honey-garlic-chicken.html"> Honey Chicken Garlic</a></h3></li>
-        <img src="./img/honey-garlic-chicken.png" height="200" alt="Honey garlic covered fried chicken that looks amazing and apetizing.">
-        <li><h3><a href="./recipes/takoyaki.html"> Takoyaki</a></li></h3>
-        <img src="./img/takoyaki.png" height="200" alt="Juicy brown takoyaki with flakes on top and mayo that is topped by powdered green seaweed.">
-        </ul>
+        <div class="title">
+                <h1> Glass's Favorite Recipes!</h1>
+                <p> <strong>Welcome!</strong> These recipes are one of my favorite dishes to eat IRL! Please try them out!</p>
+        </div>
+        <hr>
+        <div class="catalogue">
+            <div class="food carbonara">
+                <img src="./img/carbonara.png" width="200" alt="Creamy carbonara with peperoni on top and green residue with it.">
+                <h3 class = "food_name">
+                    <a href="./recipes/carbonara.html">Carbonara</a>
+                </h3>            
+            </div>
+
+            <div class="food honey-garlic-chicken">
+                <img src="./img/honey-garlic-chicken.png" width="200" alt="Honey garlic covered fried chicken that looks amazing and apetizing.">
+                <h3 class = "food_name">
+                    <a href="./recipes/honey-garlic-chicken.html"> Honey Chicken Garlic</a>
+                </h3>
+            </div>
+
+            <div class="food takoyaki">
+                <img src="./img/takoyaki.png" width="200" alt="Juicy brown takoyaki with flakes on top and mayo that is topped by powdered green seaweed.">
+                <h3 class = "food_name">
+                    <a href="./recipes/takoyaki.html"> Takoyaki</a>
+                </h3> 
+            </div>
+        </div>            
     </body>
    
 </html>
